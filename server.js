@@ -45,6 +45,6 @@ app.use((error, req, res, next) => {
 
 // Start the Server
 app.listen(port, () => {
-  console.log(`server running ${domain}${port}`);
+  console.log(`server running on ${domain}${port}`);
   console.log(`press CTRL+C to stop server`);
 });
